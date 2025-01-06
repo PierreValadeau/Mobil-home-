@@ -109,7 +109,7 @@ header nav ul li a:hover {
   gap: 20px;
 }
 
-.tarifs .card {
+.tarifs .card-salins{
   position: relative;
   width: 300px;
   height: 200px;
@@ -124,7 +124,47 @@ header nav ul li a:hover {
   font-weight: bold;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.tarifs .card-pampelonne{
+  position: relative;
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  overflow:hidden;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.tarifs .card-graniers{
+  position: relative;
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  overflow:hidden;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 
