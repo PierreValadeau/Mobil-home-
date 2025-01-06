@@ -32,6 +32,7 @@ header nav ul {
   list-style: none;
   display: flex;
   gap: 30px;
+  display: flex;
 }
 
 header nav ul li a {
@@ -89,13 +90,13 @@ header nav ul li a:hover {
 
 .tarifs .cards {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 20px;
 }
 
 .tarifs .card-salins{
   position: relative;
-  width: 30%;
+  width: 35%;
   height: 200px;
   border-radius: 12px;
   overflow:hidden;
@@ -115,7 +116,7 @@ header nav ul li a:hover {
 }
 .tarifs .card-pampelonne{
   position: relative;
-  width: 300px;
+  width: 35%;
   height: 200px;
   border-radius: 12px;
   overflow:hidden;
@@ -135,7 +136,7 @@ header nav ul li a:hover {
 }
 .tarifs .card-graniers{
   position: relative;
-  width: 300px;
+  width: 35%;
   height: 200px;
   border-radius: 12px;
   overflow:hidden;
