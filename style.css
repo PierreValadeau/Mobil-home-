@@ -31,15 +31,17 @@ header .logo {
 header nav ul {
   list-style: none;
   display: flex;
-  gap: 30px;
+  gap: 15px;
   display: flex;
 }
+
+
 
 header nav ul li a {
   text-decoration: none;
   color: #1d1d1f;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
   transition: color 0.2s ease;
 }
 
@@ -55,7 +57,7 @@ header nav ul li a:hover {
   align-items: center;
   text-align: center;
   height: 100vh;
-  background: url('/images/acceuil.jpg') center/cover no-repeat;
+  background: url('/images/accueil.jpg') center/cover no-repeat;
   color: white;
   padding: 0 20px;
 }
@@ -78,27 +80,25 @@ header nav ul li a:hover {
 /* Tarifs Section */
 .tarifs {
   background-color: white;
-  padding: 60px 10%;
+  padding-bottom: 60px;
   text-align: center;
 }
 
 .tarifs h2 {
   font-size: 2.5rem;
   font-weight: 600;
-  margin-bottom: 40px;
 }
 
 .tarifs .cards {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  gap: 5px;
 }
 
 .tarifs .card-salins{
   position: relative;
   width: 35%;
-  height: 200px;
-  border-radius: 12px;
+  height: 250px;
   overflow:hidden;
   color: white;
   display: flex;
@@ -117,8 +117,7 @@ header nav ul li a:hover {
 .tarifs .card-pampelonne{
   position: relative;
   width: 35%;
-  height: 200px;
-  border-radius: 12px;
+  height: 250px;
   overflow:hidden;
   color: white;
   display: flex;
@@ -137,8 +136,7 @@ header nav ul li a:hover {
 .tarifs .card-graniers{
   position: relative;
   width: 35%;
-  height: 200px;
-  border-radius: 12px;
+  height: 250px;
   overflow:hidden;
   color: white;
   display: flex;
