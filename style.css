@@ -255,48 +255,69 @@ header nav ul li a:hover {
 
 
 /* Form Section */
+/* Conteneur de la barre de réservation */
 .reservation {
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: white; /* Couleur de fond de la barre */
-  color:black;
-  text-align: center;
-  padding: 15px;
-  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
-  z-index: 1000; /* S'assurer qu'elle reste au-dessus des autres éléments */
+  background-color: #f9f9f9;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  z-index: 1000; /* Pour que la barre soit au-dessus du contenu */
+  
+  gap: 15px; /* Espacement entre les champs du formulaire */
+}
+.form-reservation{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+/* Style des champs de formulaire dans la barre */
+.reservation .form-group {
+  display: flex;
+  flex-direction: column;
+  width: 100px; /* Largeur fixe pour les champs */
+  max-width: 200px; /* Maximum pour éviter que ça soit trop large */
 }
 
-.hero-form input {
-  width: 100%;
-  padding: 12px;
-  font-size: 1rem;
-  border: 1px solid #d1d1d6;
-  border-radius: 8px;
-  outline: none;
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
-}
-
-.hero-form input:focus {
-  border-color: #007aff;
-  box-shadow: 0 0 5px rgba(0, 122, 255, 0.5);
-}
-
-.hero-form button {
-  background-color: #007aff;
-  color: white;
-  font-size: 1rem;
+.reservation label {
   font-weight: bold;
-  padding: 12px;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background-color 0.2s ease;
+  margin-bottom: 5px;
 }
 
-.hero-form button:hover {
-  background-color: #005bb5;
+.reservation input[type="text"],
+.reservation input[type="date"],
+.reservation input[type="number"] {
+          
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+
+}
+
+.reservation input[type="date"]{
+  -webkit-appearance: none;  /* Cacher le texte sur Safari/Chrome */
+  -moz-appearance: none;     /* Cacher le texte sur Firefox */
+  appearance: none;
+}
+
+
+.reservation button {
+  padding: 10px 20px;
+  background-color: #ff9800;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.reservation button:hover {
+  background-color: #e68900;
 }
 
 /* Footer */

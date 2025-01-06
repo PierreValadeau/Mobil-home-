@@ -52,20 +52,26 @@
 
   <!-- Formulaire de Réservation -->
   <section id="reservation" class="reservation">
-    <h2>Réservez Maintenant</h2>
-    <form>
-      <label for="name">Nom</label>
-      <input type="text" id="name" name="name" required>
-      
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" required>
-      
-      <label for="date">Date d'arrivée</label>
-      <input type="date" id="date" name="date" required>
-      
+    <form class="form-reservation">
+      <div>
+        <label for="arrival-date">Date d'arrivée</label>
+        <input type="date" id="arrival-date" name="arrival-date" required>
+      </div>
+  
+      <div>
+        <label for="departure-date">Date de départ</label>
+        <input type="date" id="departure-date" name="departure-date" required>
+      </div>
+  
+      <div>
+        <label for="guests">Nombre de voyageurs</label>
+        <input type="number" id="guests" name="guests" min="1" max="10" required>
+      </div>
+  
       <button type="submit">Envoyer</button>
     </form>
   </section>
+  
 
   <!-- Footer -->
   <footer>
