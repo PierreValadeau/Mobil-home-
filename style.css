@@ -46,7 +46,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  color: #007aff; /* Apple-style blue */
+  color: #C48F56; 
 }
 
 /* Hero Section */
@@ -81,7 +81,7 @@ header nav ul li a:hover {
   margin-top: 30px;
   display: flex;
   gap: 15px;
-  background: rgba(255, 255, 255, 0.9); /* Fond blanc transparent */
+  background: rgba(255, 255, 255, 0.9); 
   padding: 20px;
   border-radius: 8px;
   max-width: 400px; /* Limite la largeur */
@@ -212,7 +212,7 @@ header nav ul li a:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.4); /* Ajuster la transparence si nécessaire */
+  background: rgba(0, 0, 0, 0.4); 
   z-index: 1;
 }
 
@@ -264,9 +264,9 @@ header nav ul li a:hover {
   background-color: #f9f9f9;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
   padding: 10px 20px;
-  z-index: 1000; /* Pour que la barre soit au-dessus du contenu */
+  z-index: 1000; 
   
-  gap: 15px; /* Espacement entre les champs du formulaire */
+  gap: 15px; 
 }
 .form-reservation{
   display: flex;
@@ -278,8 +278,8 @@ header nav ul li a:hover {
 .reservation .form-group {
   display: flex;
   flex-direction: column;
-  width: 100px; /* Largeur fixe pour les champs */
-  max-width: 200px; /* Maximum pour éviter que ça soit trop large */
+  width: 100px; 
+  max-width: 200px; 
 }
 
 .reservation label {
@@ -330,43 +330,79 @@ footer {
 }
 
 /* Section Description */
-.prairies {
-  padding: 60px 10%; /* Ajoute des marges autour de la section */
-  background-color: #f5f5f7; /* Couleur de fond claire */
-  text-align: center; /* Centre le texte */
+.description {
+  padding: 60px 10%;
+  background-color: #f5f5f7;
+}
+
+/* Lignes */
+.row {
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  gap: 40px; 
+  margin-bottom: 40px; 
+  flex-wrap: wrap; 
+  width: 100%;
 }
 
 /* Blocs de texte */
 .text-block {
-  margin-bottom: 40px; /* Espace entre les blocs */
+  flex: 1; 
+  max-width: 500px; 
 }
 
 .text-block h2 {
   font-size: 2rem;
   font-weight: bold;
   color: #1d1d1f;
-  margin-bottom: 15px; /* Espace sous le titre */
+  margin-bottom: 15px; 
 }
 
 .text-block p {
   font-size: 1.2rem;
   color: #6e6e73;
   line-height: 1.8;
-  max-width: 800px; /* Limite la largeur pour un meilleur confort de lecture */
-  margin: 0 auto; /* Centre horizontalement */
 }
 
 /* Blocs d'image */
 .image-block {
-  margin-bottom: 40px; /* Espace entre les images */
+  flex: 1; 
+  max-width: 500px; 
+}
+
+.fivestar{
+  color:#C48F56 ;
+}
+
+.goldcontent{
+  color: #C48F56;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .image-block img {
-  width: 100%; /* L'image occupe toute la largeur disponible */
-  max-width: 800px; /* Limite la largeur pour éviter des images trop grandes */
-  height: auto; /* Maintient les proportions de l'image */
-  border-radius: 12px; /* Coins arrondis pour un effet élégant */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  width: 100%; 
+  height: auto; 
+  border-radius: 12px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+span {
+  font-weight: bold;
+}
+
+
+/* Responsive : Mode colonne sur petits écrans */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column; 
+    text-align: center; 
+  }
+
+  .text-block, .image-block {
+    max-width: 100%; 
+  }
 }
 
 
