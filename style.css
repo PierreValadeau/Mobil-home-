@@ -392,16 +392,20 @@ span {
   font-weight: bold;
 }
 
-.animate {
-  opacity: 0;
-  transform: translateY(50px);
-  transition: opacity 0.8s ease, transform 0.8s ease;
+/* Animation de base */
+.row {
+  opacity: 0; /* Invisible au départ */
+  transform: translateY(50px); /* Décalé vers le bas */
+  transition: opacity 0.8s ease, transform 0.8s ease; /* Animation fluide */
 }
 
-.animate.visible {
+/* État visible */
+.row.visible {
   opacity: 1;
-  transform: translateY(0);
+  transform: translateY(0); /* Retour à la position normale */
 }
+
+
 
 /* Responsive : Mode colonne sur petits écrans */
 @media (max-width: 768px) {
