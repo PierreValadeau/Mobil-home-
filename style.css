@@ -392,6 +392,16 @@ span {
   font-weight: bold;
 }
 
+.animate {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.animate.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
 
 /* Responsive : Mode colonne sur petits écrans */
 @media (max-width: 768px) {
