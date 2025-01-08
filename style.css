@@ -19,7 +19,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 10%;
+  padding-left: 100px;
   background-color: white;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
@@ -55,8 +55,8 @@ nav{
 header nav ul li a {
   text-decoration: none;
   color: #1d1d1f;
-  font-weight: 500;
-  font-size: 14px;
+  font-weight: 400;
+  font-size: 18px;
   transition: color 0.2s ease;
 }
 
@@ -68,13 +68,20 @@ header nav ul li a:hover {
 .hero {
   display: flex;
   flex-direction: column;
+  align-items: start;
   justify-content: center;
-  align-items: center;
-  text-align: center;
   height: 100vh;
   background: url('/images/accueil.jpg') center/cover no-repeat;
   color: white;
   padding: 0 20px;
+}
+
+.hero-content{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  padding-left: 90px;
 }
 
 .hero h1 {
