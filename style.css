@@ -322,11 +322,38 @@ header nav ul li a:hover {
 
 /* Footer */
 footer {
-  background-color: #1d1d1f;
-  color: white;
+  background-color: white;
+  color: black;
   text-align: center;
   padding: 20px;
 }
+
+footer ul{
+  list-style: none;
+  gap: 15px;
+  display: flex;
+}
+
+footer ul a{
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 14px;
+  transition: color 0.2s ease;
+
+}
+
+.logo1{
+  width: 30px;
+  height: 30px;
+}
+
+.logo2{
+  width: 30px;
+  height: 30px;
+}
+
+
 
 /* Section Description */
 .description {
@@ -404,10 +431,7 @@ span {
   transform: translateY(0); /* Retour à la position normale */
 }
 
-.logo{
-  width: 50px;
-  height: 50px;
-}
+
 
 
 
