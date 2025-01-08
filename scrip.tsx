@@ -28,3 +28,6 @@ document.addEventListener('DOMContentLoaded', () => {
   // Vérifie les éléments visibles au chargement initial
   handleScroll();
 });
+
+
+

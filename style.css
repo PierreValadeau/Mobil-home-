@@ -265,8 +265,8 @@ header nav ul li a:hover {
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
   padding: 10px 20px;
   z-index: 1000; 
-  
   gap: 15px; 
+  transition: bottom 0.3s ease; /* Transition fluide pour le mouvement */
 }
 .form-reservation{
   display: flex;
@@ -322,11 +322,10 @@ header nav ul li a:hover {
 
 /* Footer */
 footer {
-  padding: 20px 10%;
-  background-color: white;
-  color: black;
+  background-color: #1d1d1f;
+  color: white;
   text-align: center;
-  font-size: 0.9rem;
+  padding: 20px;
 }
 
 /* Section Description */
