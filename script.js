@@ -57,3 +57,16 @@ document.addEventListener('DOMContentLoaded', () => {
   // Appeler les fonctions au chargement pour gérer l'état initial
   handleScroll();
 });
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  const burgerMenu = document.querySelector('.burger-menu');
+  const navMenu = document.querySelector('.nav-menu');
+
+  if (burgerMenu && navMenu) {
+    burgerMenu.addEventListener('click', () => {
+      burgerMenu.classList.toggle('open'); // Animation du burger en croix
+      navMenu.classList.toggle('open'); // Affiche ou masque la navigation
+    });
+  }
+});

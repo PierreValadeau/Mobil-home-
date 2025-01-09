@@ -67,4 +67,4 @@ Auncun serveur n'est nécessaire, ouvrez simplement le fichier index.html dans v
 
 ## Auteur
 - Pierre Valadeau
-Développeur Web passionné par les projets interactifs et le design minimaliste.  
+Développeur Web passionné par les projets interactifs et le design minimaliste.   
