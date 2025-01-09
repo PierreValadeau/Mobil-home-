@@ -110,6 +110,10 @@ header nav ul li a:hover {
   font-size: 18px;  
 }
 
+.hero a:hover{
+  color: #C48F56;
+}
+
 .lienssocial{
   display: flex;
   gap: 20px;
