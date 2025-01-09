@@ -49,3 +49,22 @@ Ce projet consiste en la création d'une **landing page interactive et élégant
 1. **Cloner le repository :**
    ```bash
    git clone https://github.com/PierreValadeau/Mobil-home-.git
+
+2. **Ouvrir le fichier HTML:**
+Auncun serveur n'est nécessaire, ouvrez simplement le fichier index.html dans votre navigateur.
+
+3. **Structure des fichiers:**
+  - index.html: Structure HTML de la page.
+  - style.css Fichier CSS pour le design. 
+  - JavaScript pour les intéractions dynamiques. 
+
+## Améliorations possibles
+
+  - Ajout d'une API backend pour gérer les réservations en temps réel.
+  - Intégration d'un framework  CSS comme Tailwind pour accélérer le développement. 
+  - Utilisation de Webpack ou Vite pour optimiser les assets. 
+
+
+## Auteur
+- Pierre Valadeau
+Développeur Web passionné par les projets interactifs et le design minimaliste.  
